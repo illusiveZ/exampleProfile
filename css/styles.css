@@ -1,48 +1,110 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #23214c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #23214c;
 }
 
 body a {
-    text-decoration: none;
-    color: #23214c;
-    transition: color .2s linear;
+  text-decoration: none;
+  color: #23214c;
+  transition: color 0.2s linear;
 }
 
 body a:hover {
-    color: #ee87a4;
+  color: #ee87a4;
 }
 
 .doc-loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-    background-color: #fff;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #fff;
 }
 
 .doc-loader td {
-    text-align: center;
-    vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .doc-loader img {
-    width: 90px;
-    height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
 .content-1170 {
-    width: 1170px;
+  width: 1170px;
 }
 
 .content-1170 img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.full-width {
+  line-height: 0;
+}
+
+/* Start of Top Menu */
+
+.menu-wrapper {
+  transition: background-color 0.2s linear;
+  z-index: 99 !important;
+  background-color: #221c5a;
+  width: 100% !important;
+  top: 0;
+  position: fixed;
+}
+
+#header-main-menu {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-menu.sm-clean {
+  background-color: transparent;
+}
+
+.main-menu.sm-clear.sm-clean a {
+  font-size: 13px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 400;
+  transition: color 0.2s linear;
+  text-transform: uppercase;
+  letter-spacing: 0.03cm;
+}
+
+.main-menu.sm-clean .sub-menu a {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.sm-clean .current_page_item a {
+  color: #fff !important;
+}
+
+.main-menu.sm-clean a:hover {
+  color: #fff !important;
+}
+
+.sm-clean li.active a {
+  color: #fff !important;
+}
+
+.mob-menu {
+  display: none;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: color 0.2s linear;
+  color: #fff;
 }
