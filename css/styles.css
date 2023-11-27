@@ -153,3 +153,52 @@ body a:hover {
   letter-spacing: -3px;
   padding: 0;
 }
+
+.section-content-holder {
+  background: #fff;
+  width: 800px;
+  padding: 60px 0;
+}
+
+.section-content-holder .content-wrapper {
+  padding: 0 60px;
+}
+
+.section-content-holder.right {
+  margin-left: 370px;
+}
+
+.section-content-holder.left {
+  margin-top: 370px;
+}
+
+.section-content-holder .content-title-holder {
+  overflow: hidden;
+  height: 100px;
+  margin-top: -60px;
+  padding-bottom: 50px;
+}
+
+.section-content-holder .content-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  font-size: 180px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-top: -75px;
+  color: #221c5a;
+}
+
+.extra-content-left {
+  width: 800px;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.extra-content-right {
+  width: 800px;
+  margin-left: 370px;
+  color: #fff;
+  padding: 100px 0;
+}
