@@ -108,3 +108,48 @@ body a:hover {
   transition: color 0.2s linear;
   color: #fff;
 }
+
+/* End of Top Menu */
+
+/* Start of General Section */
+
+.section {
+  position: relative;
+  z-index: 1;
+}
+
+.section-num {
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.section-title-holder {
+  background-color: #32db8a;
+  width: 370px;
+  height: 370px;
+  z-index: 2;
+}
+
+.section-num span {
+  margin-left: -64px;
+  color: #55b286;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 100%;
+  letter-spacing: -5px;
+}
+
+.section-title-holder h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 109px;
+  width: 245px;
+  word-break: break-all;
+  line-height: 83px;
+  margin-top: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  padding: 0;
+}
